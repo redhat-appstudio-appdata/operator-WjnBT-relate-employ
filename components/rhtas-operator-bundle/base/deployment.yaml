@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rhtas-operator-bundle
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/operator/rhtas-operator-bundle@sha256:ed9ab043c26c64f8972894fbdbddccc395eaab40f382a963a118fa967ca71bb4
         imagePullPolicy: Always
         name: container-image
         ports:
